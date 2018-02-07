@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--<color name="colorPrimary">#1212a1</color>
+    <color name="colorPrimaryDark">#0e1f8b</color>
+    <color name="colorAccent">#e6187b</color>-->
+
+    <color name="colorPrimary">#181818</color>
+    <color name="colorPrimaryDark">#000</color>
+    <color name="colorAccent">#000</color>
+
+
+    <color name="themeYellow">#f7ca18</color>
+    <color name="screenColor">#f0f0f0</color>
+    <color name="BtnTextColour">#171287</color>
+    <color name="topBlockMain">#232323</color>
+    <color name="mainBlock">#181818</color>
+    <color name="bottomBlockLeft">#00e676</color>
+    <color name="bottomBlockRight">#43a047</color>
+</resources>

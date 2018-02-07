@@ -1,0 +1,49 @@
+<resources>
+    <string name="app_name">Programming Notes</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+
+
+    <!-- AdMob ad unit IDs -->
+    <string name="admob_app_id">ca-app-pub-6586022251841332~8053625747</string>
+
+    <!-- AdMob banner -->
+    <string name="banner_home_footer">ca-app-pub-6586022251841332/6706908576</string>
+    <string name="banner_cplus">ca-app-pub-6586022251841332/8723957002</string>
+    <string name="banner_java">ca-app-pub-6586022251841332/3940024872</string>
+    <string name="banner_android">ca-app-pub-6586022251841332/6365386971</string>
+    <string name="banner_java_script">ca-app-pub-6586022251841332/5063203152</string>
+    <string name="banner_php">ca-app-pub-6586022251841332/3052827927</string>
+    <string name="banner_python">ca-app-pub-6586022251841332/4183389849</string>
+    <string name="banner_sql">ca-app-pub-6586022251841332/5907535050</string>
+    <string name="banner_node_js">ca-app-pub-6586022251841332/2749575594</string>
+    <string name="banner_mongo_db">ca-app-pub-6586022251841332/6833603915</string>
+
+    <!-- AdMob interstital -->
+    <string name="interstitial_cplus">ca-app-pub-6586022251841332/1064958838</string>
+    <string name="interstitial_java">ca-app-pub-6586022251841332/3930795328</string>
+    <string name="interstitial_android">ca-app-pub-6586022251841332/1343449993</string>
+    <string name="interstitial_java_script">ca-app-pub-6586022251841332/4009141788</string>
+    <string name="interstitial_php">ca-app-pub-6586022251841332/2403404311</string>
+    <string name="interstitial_python">ca-app-pub-6586022251841332/2183912462</string>
+    <string name="interstitial_sql">ca-app-pub-6586022251841332/1174083121</string>
+    <string name="interstitial_node_js">ca-app-pub-6586022251841332/7044043829</string>
+    <string name="interstitial_mongo_db">ca-app-pub-6586022251841332/5749598862</string>
+
+
+    <string name="cplus">C++ Notes</string>
+    <string name="java">Java Notes</string>
+    <string name="android">Android Notes</string>
+    <string name="java_script">Java Script Notes</string>
+    <string name="php">PHP Notes</string>
+    <string name="python">Python Notes</string>
+    <string name="sql">SQL Notes</string>
+    <string name="node_js">Node JS Notes</string>
+    <string name="mongo_db">Mongo DB Notes</string>
+    <string name="about">About</string>
+
+
+</resources>

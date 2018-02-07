@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="anandgaur.com.programmingnotes">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/appicon"
+        android:label="@string/app_name"
+        android:roundIcon="@drawable/appicon"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".HomeActivity"
+            android:label="@string/app_name"
+            android:theme="@style/AppTheme.NoActionBar">
+
+        </activity>
+        <activity
+            android:name=".CplusActivity"
+            android:label="@string/cplus" />
+        <activity
+            android:name=".JavaActivity"
+            android:label="@string/java" />
+        <activity
+            android:name=".AndroidActivity"
+            android:label="@string/android" />
+        <activity
+            android:name=".JavaScriptActivity"
+            android:label="@string/java_script" />
+        <activity
+            android:name=".PHPActivity"
+            android:label="@string/php" />
+        <activity
+            android:name=".PythonActivity"
+            android:label="@string/python" />
+        <activity
+            android:name=".SQLActivity"
+            android:label="@string/sql" />
+        <activity
+            android:name=".NodeJsActivity"
+            android:label="@string/node_js" />
+        <activity
+            android:name=".MongoDbActivity"
+            android:label="@string/mongo_db" />
+        <activity
+            android:name=".AboutActivity"
+            android:label="@string/about">
+
+        </activity>
+        <activity android:name=".SplashActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+
+        </activity>
+    </application>
+
+</manifest>

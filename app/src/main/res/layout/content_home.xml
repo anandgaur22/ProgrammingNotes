@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="@drawable/bg1"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+   android:padding="25dp"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="anandgaur.com.programmingnotes.HomeActivity"
+    tools:showIn="@layout/app_bar_home">
+
+
+
+        <Button
+            android:id="@+id/btnCplus"
+            android:layout_width="290dp"
+            android:layout_height="35dp"
+            android:text="C++"
+            android:background="@drawable/round_button"
+            android:textColor="@color/BtnTextColour"
+            android:textStyle="bold"
+            android:layout_centerHorizontal="true"
+            android:layout_margin="5dp" />
+
+        <Button
+            android:layout_width="290dp"
+            android:layout_height="35dp"
+            android:id="@+id/btnJava"
+            android:layout_below="@+id/btnCplus"
+            android:textColor="@color/BtnTextColour"
+            android:background="@drawable/round_button"
+            android:layout_centerHorizontal="true"
+            android:layout_margin="5dp"
+            android:textStyle="bold"
+            android:text="Java" />
+
+    <Button
+        android:layout_width="290dp"
+        android:layout_height="35dp"
+        android:id="@+id/btnAndroid"
+        android:layout_below="@+id/btnJava"
+        android:textColor="@color/BtnTextColour"
+        android:background="@drawable/round_button"
+        android:layout_centerHorizontal="true"
+        android:layout_margin="5dp"
+        android:textStyle="bold"
+        android:text="Android" />
+
+    <Button
+        android:layout_width="290dp"
+        android:layout_height="35dp"
+        android:id="@+id/btnJavaScript"
+        android:layout_below="@+id/btnAndroid"
+        android:textColor="@color/BtnTextColour"
+        android:background="@drawable/round_button"
+        android:layout_centerHorizontal="true"
+        android:layout_margin="5dp"
+        android:textStyle="bold"
+        android:text="Java Script" />
+
+    <Button
+        android:layout_width="290dp"
+        android:layout_height="35dp"
+        android:id="@+id/btnPHP"
+        android:layout_below="@+id/btnJavaScript"
+        android:textColor="@color/BtnTextColour"
+        android:background="@drawable/round_button"
+        android:layout_centerHorizontal="true"
+        android:layout_margin="5dp"
+        android:textStyle="bold"
+        android:text="PHP" />
+
+    <Button
+        android:layout_width="290dp"
+        android:layout_height="35dp"
+        android:id="@+id/btnPython"
+        android:layout_below="@+id/btnPHP"
+        android:textColor="@color/BtnTextColour"
+        android:layout_centerHorizontal="true"
+        android:layout_margin="5dp"
+        android:textStyle="bold"
+        android:background="@drawable/round_button"
+        android:text="Python" />
+
+    <Button
+        android:id="@+id/btnSQL"
+        android:layout_width="290dp"
+        android:layout_height="35dp"
+        android:layout_below="@+id/btnPython"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/round_button"
+        android:textColor="@color/BtnTextColour"
+        android:layout_margin="5dp"
+        android:textStyle="bold"
+        android:text="SQL" />
+
+    <Button
+        android:id="@+id/btnNodeJs"
+        android:layout_width="290dp"
+        android:layout_height="35dp"
+        android:layout_below="@+id/btnSQL"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/round_button"
+        android:textColor="@color/BtnTextColour"
+        android:layout_margin="5dp"
+        android:textStyle="bold"
+        android:text="Node Js" />
+
+    <Button
+        android:id="@+id/btnMongoDb"
+        android:layout_width="290dp"
+        android:layout_height="35dp"
+        android:layout_below="@+id/btnNodeJs"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/round_button"
+        android:textColor="@color/BtnTextColour"
+        android:layout_margin="5dp"
+        android:textStyle="bold"
+        android:text="Mongo DB" />
+
+
+</RelativeLayout>

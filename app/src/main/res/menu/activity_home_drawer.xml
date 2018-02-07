@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@drawable/ic_home_black_24dp"
+            android:title="Home" />
+
+        <item
+            android:id="@+id/nav_about"
+            android:icon="@drawable/ic_about_black_24dp"
+            android:title="About" />
+        <item
+            android:id="@+id/nav_share"
+            android:icon="@drawable/ic_menu_share"
+            android:title="Share" />
+        <item
+            android:id="@+id/nav_rate"
+            android:icon="@drawable/ic_rate_black_24dp"
+            android:title="Rate App" />
+    </group>
+
+    <item android:title="More App">
+        <menu>
+            <item
+                android:id="@+id/nav_lectApp"
+                android:icon="@drawable/ic_get_app_black_24dp"
+                android:title="Lecturer Assistants" />
+        </menu>
+    </item>
+
+    <item android:title="Social Networking">
+        <menu>
+            <item
+                android:id="@+id/nav_fb"
+                android:icon="@drawable/fb_icon"
+                android:title="Facebook" />
+            <item
+                android:id="@+id/nav_instagram"
+                android:icon="@drawable/insta_icon"
+                android:title="Instagram" />
+
+            <item
+                android:id="@+id/nav_blog"
+                android:icon="@drawable/ic_website_black_24dp"
+                android:title="Website" />
+        </menu>
+    </item>
+
+
+</menu>
